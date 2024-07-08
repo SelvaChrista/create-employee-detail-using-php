@@ -1,0 +1,161 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.message
+{
+    position: sticky;
+    top:0;
+    max-width: 1200;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    z-index: 1000;
+    background-color: lightslategray;
+
+}
+.message > span{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.message > i{
+    color: #c93838;
+    font-size: 2rem;
+}
+.message > i:hover{
+    background-color: #ffffff;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.container > .content 
+{ 
+ align-items: center;
+ justify-content: center;
+
+
+}
+.container > .content h1
+{
+    background-color: aqua;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.container > .content p
+{
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+.container> .content > .btn
+{
+    display: inline-block;
+    padding: 5px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #333;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.container > .content > .btn:hover
+{
+    background: #c93838;
+}
+.regcontainer
+{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px; 
+    background: #eee;
+}
+
+
+.regcontainer > form
+{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0 ,1);
+    background: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    width: 500px;
+}
+.regcontainer > form > h1
+{
+ font-size: 1.5em;
+ color: #333;
+ margin-bottom: 10px;
+ align-items: center;
+
+ 
+}
+.regcontainer > form > input
+{
+    width: 80%;
+     padding: 10px 15px;
+     border-radius: 5px;
+    font-size: 17px;
+    margin:8px 0;
+     background: #eee;
+}
+.regcontainer > form > select
+{
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 5px;
+   font-size: 17px;
+   margin:8px 0;
+    background: #eee;
+}
+.regcontainer > form > .btn
+{
+   
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.regcontainer > form > .btn:hover
+{
+    background-color: #f6afaf;  
+}
+.regcontainer > form > p
+{
+    font-size: 1em;
+}
+.regcontainer > form > p > a
+{
+    font-size: 1em;
+    color:#d68080; 
+    text-decoration: none;
+}
+.regcontainer > form > .erorr_msg
+{
+margin: 10px 0;
+display: block;
+background: #c93838;
+color: #ffffff;
+border-radius: 5px;
+font-size: 1em;
+}
+
+

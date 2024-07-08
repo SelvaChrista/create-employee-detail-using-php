@@ -1,0 +1,148 @@
+.profilecontainer
+
+{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 60px; 
+    background:#4f4c4c;
+}
+.profilecontainer > h1
+{
+   width: 30rem;
+    background-color: aqua;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.profilecontainer >  .profile
+{
+width: 30rem;
+border-radius: 5px;
+background-color:#eee;
+padding: 2rem;
+text-align: center;
+}
+ .profilecontainer > .profile > img
+ {
+ 
+    height: 10rem;
+    width: 10rem;
+     align-items: center;
+    background-color: #2aa55f;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    
+}
+
+
+  .profilecontainer > .profile > a 
+{
+    font-size: 20px;
+    color: #050505;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #e2ddddda;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+ .profilecontainer > .profile > a:hover
+{
+    background-color: lightcoral;
+}
+
+
+.updatecontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+}
+.updatecontainer > form
+{
+    width: 30rem;
+border-radius: 5px;
+background-color:#eee;
+border: 1px black solid;
+border-radius: 5px;
+padding: 2rem;
+text-align: center;
+
+}
+.updatecontainer > form > h1
+{
+    text-align: center;
+    color: #050505;
+    background-color: #dce3e1;
+}
+.updatecontainer > form >img
+{
+    height: 10rem;
+    width: 10rem;
+    align-items: center;
+    background-color: #b7e2da;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    
+}
+.updatecontainer > form > .flexbox
+{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.updatecontainer > form > .flexbox > .inputbox
+{
+ width: 49%;
+}
+.updatecontainer > form > .flexbox > .inputbox > span
+{
+    font-size: 18px;
+    color: #080808;
+    display: block;
+    padding-top: 1.5px;
+    background-color: #eee;
+}
+.updatecontainer > form > .flexbox > .inputbox > .box
+{
+    background-color: #c3bebe;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.updatecontainer > form > .flexbox > .inputbox > .box:hover
+{
+    background-color: lightcoral;
+}
+.flexbtn
+{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #c3bebe;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.flexbtn > a
+{
+    text-decoration: none;
+    color: #050505;
+}
+.flexbtn:hover
+{
+    background-color: lightcoral;
+}
